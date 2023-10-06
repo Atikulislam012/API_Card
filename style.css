@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+
+.main_div{
+    box-shadow: 10px 10px;
+}
 h1{
     text-align: center;
     color: rgb(254, 254, 254);
@@ -13,16 +17,29 @@ h1{
     color: rgb(239, 239, 239);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
+    
 }
+
 
 .post{
     padding: 15px;
     background-color: rgb(52, 60, 82);
     border: 5px solid rgb(253, 255, 116);
     border-radius: 10px;
+    
 }
 
 .post-id{
     text-align: center;
     color: rgb(253, 129, 129);
+}
+
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    h1 .main_div, #post_container, .post, .post-id {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+
+    }
 }
