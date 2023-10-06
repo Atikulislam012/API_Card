@@ -36,7 +36,7 @@ h1{
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
     h1 .main_div, #post_container, .post, .post-id {
-      width: 80%;
+      width: 90%;
       grid-template-columns: repeat(2, 1fr);
 
     }
