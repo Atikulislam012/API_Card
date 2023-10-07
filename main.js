@@ -14,8 +14,7 @@ function loadData(){
             <h5>Post Title : ${post.title}</h5>
             <h5>Post Description : ${post.body}</h5>
 
-            <button onclick='handleCommets(${post.id})'>Show Comments</button> 
-                    `;
+            <button onclick='handleCommets(${post.id})'>Show Comments</button>`;
 
             postcontainer.appendChild(postDIV);
         }
